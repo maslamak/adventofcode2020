@@ -18,3 +18,4 @@ print(num1)
 print(num2)
 sol=num_1*num_2
 print(sol)
+
