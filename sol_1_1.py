@@ -1,4 +1,4 @@
-fname='input1.txt'
+fname='input_1.txt'
 f=open(fname)
 nums = f.readlines()
 nums = [int(i) for i in nums]
