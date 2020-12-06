@@ -1,0 +1,13 @@
+fname = r"input_6.txt"
+
+f = open(fname)
+data0 = f.read()
+data1 = data0.split('\n\n')
+
+total = 0
+for line in data1:
+    no_ppl = (str(line).count('\n'))
+    response = (str(line).replace('\n', ''))
+    no_unique_response = len(set(response))
+    total += no_unique_response
+print(total)
